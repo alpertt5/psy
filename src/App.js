@@ -1,12 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Header from "./Header.js";
 import Home from "./Home.js";
+import Navbar from "./Navbar.js";
 
 function App() {
   return (
     <>
-      <h1>AAAAAA</h1>
-      <div>Artic</div>
+      <Header />
       <Home />
     </>
   );

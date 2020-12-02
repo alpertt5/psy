@@ -1,13 +1,6 @@
-html,
-body {
-  width: 100%;
-  height: 100%;
-  background-color: #fff9eb;
-}
-
 .top-container-img1 {
   height: 500px;
-  background: url("./images/unsplash1.jpg") no-repeat;
+  background: url("./images/unsplash2.jpg") no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -29,7 +22,7 @@ body {
 
 .footer {
   height: 200px;
-  background: #f0f8ff;
+  background: #d8dce3;
   margin-top: 100px;
   display: grid;
   grid-template-rows: 2fr 1fr;
