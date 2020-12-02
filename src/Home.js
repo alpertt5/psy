@@ -1,8 +1,14 @@
 import React from "react";
 import "./Home.css";
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 
 const Home = () => {
   return (
+    <>
+        <ReactCSSTransitionGroup
+        transitionName="example" transitionAppear={true}
+        transitionAppearTimeout={700}>
+        
     <div className="container">
       <div className="text-container-1">
         <h3>Lorem ipsum dolor sit amet</h3>
@@ -81,6 +87,8 @@ const Home = () => {
         <div>Flex2</div>
       </div>
     </div>
+    </ReactCSSTransitionGroup>
+        </>
   );
 };
 
