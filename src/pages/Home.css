@@ -1,6 +1,6 @@
 .top-container-img1 {
   height: 500px;
-  background: url("./images/unsplash2.jpg") no-repeat;
+  background: url("../images/unsplash2.jpg") no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -14,22 +14,10 @@
 
 .footer-img {
   height: 500px;
-  background: url("./images/footer-banner.jpg") no-repeat;
+  background: url("../images/footer-banner.jpg") no-repeat;
   background-size: 100%;
   background-attachment: fixed;
   background-position: center;
-}
-
-.footer {
-  height: 200px;
-  background: #d8dce3;
-  margin-top: 100px;
-  display: grid;
-  grid-template-rows: 2fr 1fr;
-}
-
-.footer div:first-child {
-  text-align: center;
 }
 
 @media screen and (max-width: 768px) {
