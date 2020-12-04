@@ -5,7 +5,7 @@ import Home from "./pages/Home.js";
 import Navbar from "./components/Navbar.js";
 import About from "./pages/About.js";
 import Articles from "./pages/Articles.js";
-import Presentations from "./pages/Presentations.js";
+import Presentations from "./pages/Presentations/Presentations.js";
 import { Switch, Route } from "react-router-dom";
 import Announcements from "./pages/Announcements.js";
 import Contact from "./pages/Contact.js";
