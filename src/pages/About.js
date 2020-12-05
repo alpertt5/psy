@@ -1,14 +1,12 @@
 import React from "react";
-import ReactCSSTransitionGroup from "react-addons-css-transition-group";
+import Fade from 'react-reveal/Fade';
 
 const About = () => {
   return (
     <>
-      <ReactCSSTransitionGroup
-        transitionName="example"
-        transitionAppear={true}
-        transitionAppearTimeout={700}
-      ></ReactCSSTransitionGroup>
+      <Fade>
+        Hakkimizda
+      </Fade>
     </>
   );
 };

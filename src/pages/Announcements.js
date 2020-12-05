@@ -1,13 +1,11 @@
 import React from 'react';
-import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
+import Fade from 'react-reveal/Fade';
 
 const Announcements = () => {
     return (
-        <ReactCSSTransitionGroup
-        transitionName="example" transitionAppear={true}
-        transitionAppearTimeout={700}>
+        <Fade>
         <h1>Yazilar</h1>
-        </ReactCSSTransitionGroup>
+        </Fade>
     )
 }
 

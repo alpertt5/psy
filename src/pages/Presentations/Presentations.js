@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import "./Presentations.css";
 import presentationList from "./PresentationList";
 import Fade from 'react-reveal/Fade';
@@ -7,17 +6,8 @@ import Zoom from 'react-reveal/Zoom';
 
 
 const Presentations = () => {
-
-
-
     return (
-        // <ReactCSSTransitionGroup
-        // transitionName="example" transitionAppear={true}
-        // transitionAppearTimeout={700}>
         <Zoom>
-
-        
-
         <div className="presentations-container">
             {presentationList.map((listItem, index) => (
                 <>
@@ -73,7 +63,6 @@ const Presentations = () => {
         </div>
         </Zoom>
 
-        // </ReactCSSTransitionGroup>
     );
 }
 

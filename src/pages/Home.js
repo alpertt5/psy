@@ -1,15 +1,11 @@
 import React from "react";
 import "./Home.css";
-import ReactCSSTransitionGroup from "react-addons-css-transition-group";
+import Fade from 'react-reveal/Fade';
 
 const Home = () => {
   return (
     <>
-      <ReactCSSTransitionGroup
-        transitionName="example"
-        transitionAppear={true}
-        transitionAppearTimeout={700}
-      >
+      <Fade>
         <div className="container">
           <div className="text-container-1">
             <h3>Lorem ipsum dolor sit amet</h3>
@@ -80,7 +76,7 @@ const Home = () => {
           </div>
           <div className="footer-img"></div>
         </div>
-      </ReactCSSTransitionGroup>
+        </Fade>
     </>
   );
 };
