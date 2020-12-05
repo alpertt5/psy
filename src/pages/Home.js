@@ -1,8 +1,12 @@
 import React from "react";
 import "./Home.css";
 import Fade from "react-reveal/Fade";
+import arrowIcon from "../icons/top-arrow.svg";
 
 const Home = () => {
+  const scrollTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
   return (
     <>
       <Fade>
@@ -75,6 +79,10 @@ const Home = () => {
             </p>
           </div>
           <div className="footer-img"></div>
+          <div className="scroll-top" onClick={scrollTop}>
+            <img className="arrow-icon" src={arrowIcon} alt="arrow-icon" />
+            <p>Başa Dön</p>
+          </div>
         </div>
       </Fade>
     </>

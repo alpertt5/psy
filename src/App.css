@@ -11,6 +11,13 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: grey;
+}
 .page-container {
   display: flex;
   flex-direction: column;

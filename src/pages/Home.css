@@ -20,6 +20,17 @@
   background-position: center;
 }
 
+.scroll-top {
+  text-align: center;
+  width: 100px;
+  margin: auto;
+}
+.scroll-top img {
+  height: 50px;
+  position: relative;
+  top: 10px;
+}
+
 @media screen and (max-width: 768px) {
   .footer-img {
     height: 300px;
