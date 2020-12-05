@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import Fade from 'react-reveal/Fade';
+import Fade from "react-reveal/Fade";
 
 const Home = () => {
   return (
@@ -76,7 +76,7 @@ const Home = () => {
           </div>
           <div className="footer-img"></div>
         </div>
-        </Fade>
+      </Fade>
     </>
   );
 };
