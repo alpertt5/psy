@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Italianno&family=Sacramento&display=swap");
-
 .header {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   height: 35vh;
@@ -8,27 +6,22 @@
 
 .logo-section {
   width: 100%;
-  height: 70%;
+  height: 75%;
   margin: auto;
   text-align: center;
   align-items: center;
-
   padding-top: 15px;
-
-  
 }
 
 .logo-section h1 {
   position: relative;
   top: 20%;
-  font-family: "Italianno", cursive;
+  font-family: "Architects Daughter", sans-serif, cursive;
   font-weight: 300;
   color: grey;
-  font-size: 3.5rem;
+  font-size: 3rem;
   width: 80%;
   margin: auto;
-
-  
 }
 
 @media screen and (max-width: 960px) {
